@@ -1,6 +1,30 @@
 .navbar, .nav-link{
-    color:  #0aa45f;
-    background-color: rgb(152, 255, 191);
-    text-shadow:#0aa45f;
+    color:  var(--blanco);
+    background-color: var(--azul);
+    text-shadow:var(--negro);
+}
+.w3-bar {
+    background-color: var(--blanco);
+    color: var(--azul);
 }
 
+body {
+    background-color: var(--azul);
+}
+
+:root {
+    --verde2: #569730;
+    --verde: #1f7b34;
+  
+    
+    --verde-claro: #95c11f;
+  
+    --blanco: #ffffff;
+    --negro: #000000;
+  
+    --celeste: #80c9ed;
+    --azul-claro: #29a6e7;
+    --azul: #0f5177;
+    --celeste-claro: #c7e9f8;
+  }
+  
