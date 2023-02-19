@@ -1,3 +1,23 @@
+/*======================================*/
+/*========== variables de color ==========*/
+/*======================================*/
+
+:root {
+    --verde2: #569730;
+    --verde: #1f7b34;
+
+    --v: #6dd7b8;
+    --verde-claro: #95c11f;
+
+    --blanco: #ffffff;
+    --negro: #000000;
+    --gris: #6b7a92;
+    --celeste: #80c9ed;
+    --azul-claro: #29a6e7;
+    --azul: #0f5177;
+    --celeste-claro: #c7e9f8;
+}
+
 .navbar,
 .nav-link {
     color: var(--blanco);
@@ -18,20 +38,4 @@ body {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-:root {
-    --verde2: #569730;
-    --verde: #1f7b34;
-
---v: #6dd7b8;
-    --verde-claro: #95c11f;
-
-    --blanco: #ffffff;
-    --negro: #000000;
-    --gris: #6b7a92;
-    --celeste: #80c9ed;
-    --azul-claro: #29a6e7;
-    --azul: #0f5177;
-    --celeste-claro: #c7e9f8;
 }
