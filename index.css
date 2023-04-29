@@ -349,3 +349,21 @@ footer {
   background-color: var(--negro);
   border-color: var(--negro);
 }
+
+
+
+.btn-club {
+  text-decoration: none;
+  padding:30px;
+  font-weight: bold;
+  font-size: 40px;
+  color:var(--blanco);
+  background:var(--negro);
+  border-radius:50px;
+  border: 2px solid var(--azul);
+  transition: all 0.9s;
+  text-align: center;
+  width:60%;
+  box-shadow: -5px 1px 3px 2px var(--v);
+  
+}
