@@ -4,21 +4,27 @@
 
 :root {
     --verde2: #569730;
-    --verde: #1f7b34;
 
     --v: #6dd7b8;
-    --verde-claro: #95c11f;
 
-    --blanco: #f3f3ff;
-    --negro: #000000;
-    --gris: #6b7a92;
-    --celeste: #80c9ed;
     --azul-claro: #29a6e7;
-    --azul: #0f5177;
-    --celeste-claro: #c7e9f8;
 
     --violeta: #31294d;
-}
+
+
+    --celeste: #52ace7;
+    --celeste-claro: #b6def8;
+  
+    --verde: #2cc08a;
+    --verde-claro: #7dd8b7;
+  
+    --blanco: #f3f3ff;
+    --negro: #212529;
+  
+    --azul: #293762;
+    --gris: #6b7a92;
+  }
+
 
 .navbar,
 .nav-link {
