@@ -29,52 +29,127 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body style="background-color: var(--celeste-claro);">
 
-    
-    <div class="row">
-        <div class="col"></div>
-        <div class="col">
-            <div class="img-container" >
-                <a href="index.html">
-                <img src="img/nav.png" class="align-items-center"  width="50%" alt="..." ></a>
+    <div class="w3-bar sticky-top m-0" style="color: var(--azul); background-color: var(--celeste-claro);">
+        <a href="sobremi.html" class="w3-bar-item w3-button " style="width:33%">SOBRE MÍ</a>
+        <a href="trabajos.html" class="w3-bar-item w3-button " style="width:33%">TRABAJOS</a>
+        <a href="contacto.html" class="w3-bar-item w3-button " style="width:33%">CONTACTO</a>
+    </div>
+
+    <!--logo--v--logo--logo--logo--logo--logo--logo--logo-->
+    <!--logo--v--logo--logo--logo--logo--logo--logo--logo-->
+    <!--logo--v--logo--logo--logo--logo--logo--logo--logo-->
+    <div class="img-container">
+        <a href="index.html">
+            <img src="img/logo.png" class="align-items-center" width="40%" alt="..."></a>
+    </div>
+
+    <br>
+    <h1 class=" text-center" style="background-color: var(--azul) ; color: var(--celeste-claro);">
+        CONTACTO
+    </h1><br>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6" style="background-color: rgba(89, 173, 247, 0.397) ;">
+                <form target="_blank"  action="https://formsubmit.co/sofia.16d@gmail.com" method="POST" >
+                    <div class="form-row mt-3">
+                        <div class="form-group col-sm-6">
+                            <label for="nombre">Nombre: </label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="apellido">Celular: </label>
+                            <input type="text" class="form-control" id="apellido" placeholder="+53 334 334 33 44">
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <label for="email">Correo: </label>
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Ingrese su Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="w3review">Comentario:</label>
+                        <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Escriba aqui..."
+                            class="form-control"></textarea>
+                        <br>
+                        <button type="submit" class="btn btn-light btn-lg" value="">Enviar</button>
+                        <input type="hidden" name="_next" value="https://verdeverdad.github.io/Portfolio/contacto.html">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+
+
+
+                </form>
+            </div>
+            <br><br>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row mt-5" style="background-color: var(--azul);">
+            <div class="col-sm-3"></div>
+
+            <div class="col-sm-6 mt-5">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-sm-4 text-center mb-5"><a href="https://github.com/verdeverdad"
+                                target="_blank"><img src="img/git.png" class="card-img-top" style="width:100px ;"
+                                    alt="Responsive"></a><br> GitHub
+                        </div>
+                        <div class="col-sm-4 text-center mb-5"><a
+                                href="https://www.linkedin.com/in/sofia-delmonte-6108a310a/" target="_blank"><img
+                                    src="img/images.png" class="card-img-top" style="width:100px ;"
+                                    alt="Responsive"></a><br>LinkedIn
+                        </div>
+                        <div class="col-sm-4 text-center mb-5"><a href="https://wa.me/59899675402" target="_blank"> <img
+                                    src="img/whatsapp_icon-icons.com_62680.png" class="card-img-top"
+                                    style="width:100px ;" alt="Responsive"></a><br>WhatsApp
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-3"></div>
+
+            </div>
+        </div><br>
+    </div>
+
+    <footer class="p-3 mt-3" style="background-color: var(--celeste-claro);">
+        <div class="row d-flex">
+
+            <div class="col-sm-4 d-flex flex-column">
+                <p><a href="https://www.linkedin.com/in/sofia-delmonte-6108a310a/" target="_blank"
+                        style=" color: var(--azul);">LinkedIn</a></p>
+                <p><a href="https://github.com/verdeverdad" target="_blank" style=" color: var(--azul);">GitHub</a>
+                </p>
+                <p><a href="https://wa.me/59899675402" target="_blank" style=" color: var(--azul);">WhatsApp</a></p>
+                
+            </div>
+
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <a href="index.html" class="">
+                    <img src="img/logo.png" class="img-fluid"
+                        style="display: block;margin-left: auto;margin-right: auto;" width="60%">
+                </a>
+            </div>
+
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <p><a href="sobremi.html" style=" color: var(--azul);">Sobre mi</a></p>
+                <p><a href="trabajos.html" style=" color: var(--azul);">Trabajos</a></p>
+                <p><a href="contacto.html" style=" color: var(--azul);">Contacto</a></p>
+                <p><a href="index.html" style=" color: var(--azul);">Blog</a></p>
             </div>
 
         </div>
-        <div class="col"></div>
-    </div>
 
-    <div class="w3-bar">
-        <a href="sobremi.html" class="w3-bar-item w3-button w3-mobile" style="width:33%">SOBRE MÍ</a>
-        <a href="trabajos.html" class="w3-bar-item w3-button w3-mobile" style="width:33%">TRABAJOS</a>
-        <a href="contacto.html" class="w3-bar-item w3-button w3-mobile" style="width:33%">CONTACTO</a>
-    </div><hr>
-    <div class="row">
-
-        <div class="col-md-4 card  quienes">
-            <img src="img/fotocarnet.png" class="card-img-top" alt="Responsive">
-            
+        <div class="text-center">
+            <p class="small">© 2023 SDWEB Sofía Delmonte</p>
         </div>
+    </footer>
 
-
-        <div class="col-md-4 card  quienes">
-            <img src="img/perfil.png" class="card-img-top" alt="Responsive">
-          
-        </div>
-
-
-        <div class="col-md-4 card  quienes" width="18rem;">
-            <img src="img/fotocarnet.png" class="card-img-top" alt="Responsive">
-            
-        </div>
-
-    </div>
-
-    <div class="w3-container w3-teal">
-       
-        <h5>Footer</h5>
-        <p>Footer information goes here</p>
-    </div>
 </body>
 
 </html>
