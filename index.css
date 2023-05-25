@@ -340,13 +340,13 @@ footer {
   border-color: var(--gris);
 }
 .btn-outline-gris {
-  color: var(--negro);
+  color: var(--violeta);
   background-color: var(--gris);
   border-color: var(--negro);
 }
 .btn-outline-gris:hover {
   color: var(--blanco);
-  background-color: var(--negro);
+  background-color: var(--blanco);
   border-color: var(--negro);
 }
 
