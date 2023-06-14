@@ -207,9 +207,9 @@ footer {
 
 .btn-verde {
   color: var(--blanco);
-  background-color: var(--azul);
+  background-color: var(--verde-claro);
   /*border: 2px solid var(--verde-claro);*/
-  border-color: var(--verde-claro);
+  border-color: var(--verde);
 }
 .btn-verde:hover {
   color: var(--azul);
