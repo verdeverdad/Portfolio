@@ -78,7 +78,7 @@
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="telefono">Celular: </label>
-                            <input type="text" class="form-control" id="telefono" placeholder="+53 334 334 33 44"
+                            <input type="text" class="form-control" id="telefono" placeholder="+523343343344"
                                 required name="pwd" pattern=".{8,}"
                                 title="por favor agrega la caracteristica de tu pais seguida de tu numero sin espacios ni guiones">
 
@@ -109,7 +109,14 @@
             <br><br>
             <div class="col-sm-3"></div>
         </div>
+<script>
+    function redireccionarInicio() {
+  window.location.href = "index.html";
+}
+const formulario = document.querySelector("form");
 
+formulario.addEventListener("submit", redireccionarInicio);
+</script>
         <!-- iconos gh li wh- iconos gh li wh- iconos gh li wh- iconos gh li wh-->
         <!-- iconos gh li wh- iconos gh li wh- iconos gh li wh- iconos gh li wh-->
         <!-- iconos gh li wh- iconos gh li wh- iconos gh li wh- iconos gh li wh-->
