@@ -113,33 +113,31 @@
             function redireccionarInicio() {
                 event.preventDefault();
                 alert("Gracias por su menaje. Te responderé a la brevedad. Puedes leer el blog y seguir navegando por la web.");
-                
-                ``
-               cerrarAlerta(); 
-            
+
+              //  ``
+              setTimeout(function () {
+                    window.location.href = "index.html";
+                }, 2000);
 
             }
             const formulario = document.querySelector("form");
-
             formulario.addEventListener("submit", redireccionarInicio);
-
+          
             function cerrarAlerta2() {
                 window.location.href = "index.html";
             }
         </script>
 
-       
-<script>
-    function cerrarAlerta() {
-      setTimeout(function() {
-        window.location.href = "index.html";
-      }, 1000);
-    }
-    </script>
-    
-    <div class="alert">
-      <button type="button" onclick="cerrarAlerta()">Cerrar</button>
-    </div>
+
+        <script>
+            function cerrarAlerta() {
+                
+            }
+        </script>
+
+        <div class="alert">
+            <button type="button" onclick="cerrarAlerta()">Cerrar</button>
+        </div>
 
         <!-- iconos gh li wh- iconos gh li wh- iconos gh li wh- iconos gh li wh-->
         <!-- iconos gh li wh- iconos gh li wh- iconos gh li wh- iconos gh li wh-->
