@@ -78,8 +78,8 @@
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="telefono">Celular: </label>
-                            <input type="text" class="form-control" id="telefono" placeholder="+523343343344"
-                                required name="pwd" pattern=".{8,}"
+                            <input type="text" class="form-control" id="telefono" placeholder="+523343343344" required
+                                name="pwd" pattern=".{8,}"
                                 title="por favor agrega la caracteristica de tu pais seguida de tu numero sin espacios ni guiones">
 
 
@@ -109,16 +109,22 @@
             <br><br>
             <div class="col-sm-3"></div>
         </div>
-<script>
-    function redireccionarInicio() {
-        alert("Gracias por su menaje. Te responderé a la brevedad. Puedes leer el blog y seguir navegando por la web.");
- 
-}
-const formulario = document.querySelector("form");
+        <script>
+            function redireccionarInicio() {
+                alert("Gracias por su menaje. Te responderé a la brevedad. Puedes leer el blog y seguir navegando por la web.");
+                alert.addEventListener("close", cerrarAlerta())
 
-formulario.addEventListener("submit", redireccionarInicio);
+            }
+            const formulario = document.querySelector("form");
 
-</script>
+            formulario.addEventListener("submit", redireccionarInicio);
+
+            function cerrarAlerta() {
+                window.location.href = "index.html";
+            }
+        </script>
+
+       
         <!-- iconos gh li wh- iconos gh li wh- iconos gh li wh- iconos gh li wh-->
         <!-- iconos gh li wh- iconos gh li wh- iconos gh li wh- iconos gh li wh-->
         <!-- iconos gh li wh- iconos gh li wh- iconos gh li wh- iconos gh li wh-->
