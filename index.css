@@ -24,7 +24,9 @@
     --azul: #293762;
     --gris: #6b7a92;
   }
-
+thead{
+  color: var(--v);
+}
   .slider-container {
     display:-moz-box;
     width: 100%;
